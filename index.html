@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Name | Joshua Joseph</title>
+	<link rel="shortcut icon" type="image/png" href="https://hng.tech/img/fav.png">  
+
+	<style>
+		*{
+			overflow:hidden;
+		}
+		body{
+			background: hsl(207, 19%, 77%);
+		}
+		p{
+			font-weight: 600;
+			margin-top: 20%;
+			font-size: 50px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		.btn{
+			color: #444 ;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 6rem ;
+	line-height: 5.4rem ;
+	padding: 0 3.5rem 0 3rem ;
+	margin-top: .6rem;
+	margin-left:40vw;
+	font-size: 1.3rem;
+	letter-spacing: .25rem;
+	opacity: 80%;
+		}
+		.btn:hover{
+			color: black;
+			cursor: pointer;
+			transition: color .5s;
+			opacity: 1;
+		}
+		a{
+			text-decoration: none;
+		}
+		@media only screen and (max-width: 768px) {
+			.btn{
+	margin-left: 33.3vw;
+		}
+	}
+
+
+	</style>
+</head>
+<body>
+
+<p align="center" id="name"></p>
+<button type="button" class="btn" align='center' id="btn" onclick="location.href='portfolio.html'">About me.</button>
+
+<script>
+document.getElementById("name").innerHTML ='My name is Joshua Joseph';
+</script>
+</body>
+</html>
